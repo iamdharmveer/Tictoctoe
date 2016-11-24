@@ -1,3 +1,4 @@
+
 html {
 	box-sizing: border-box;
 }
@@ -5,9 +6,10 @@ html {
 	box-sizing: inherit;
 }
 body {
-	background: rgba(14,135,108,.9);
-	color: rgba(14,135,108,.9);	
+	background: rgba(14,35,28,.8);
+	color: rgba(14,35,28,.9);	
 }
+
 div {
 	padding: 20px;
 	border: 1px solid rgba(14,135,108,.9);
@@ -87,8 +89,8 @@ h2 {
 }
 
 .dv-3 {
-    background: radial-gradient(#D8D7C3, brown);
-    color: #0E2E3B;
+    background: radial-gradient(#9392b1, black);
+    color: brown;
     border: 1px solid #fa9;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -98,8 +100,8 @@ h2 {
 
 
 .dv-3:hover, .dv-3:focus {
-    background: radial-gradient(#D8D7C3 40%, #f64);
-    color: #f54;
+    background: radial-gradient(#9392b1 40%, #201);
+    color: #000;
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     -o-transform: scale(0.9);
@@ -151,4 +153,58 @@ hr.right-diagonal {
 		width: 350px;
 		height: 350px;
 	}
+}
+.emblem {
+  position: absolute;
+  left: 3%;
+  right: 98%;
+  top: 0;
+  bottom: 100%;
+  margin: 0 auto;
+  width: 95px;
+  height: 165px;
+  border-radius: 30%;
+  font-weight: bold;
+  color: rgba(0,0,9,.9);
+  animation: spinZ 20s linear infinite;
+  text-align: center;
+    font-family:monospace;
+}
+.emblem span {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-transform: uppercase;
+  font-size: 5vh;
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+}
+@keyframes spinZ {
+  0% {
+    transform: rotateZ(360deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+.footer{
+border-top:1px solid #dbdbdb
+;background:black;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgba(200,100,100,.9), rgba(100,200,100,.5), rgba(100,100,200,.9), rgba(100,200,100,.5),rgba(200,100,100,.9));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, rgba(200,100,100,.9), rgba(100,200,100,.5), rgba(100,100,200,.9), rgba(100,200,100,.5),rgba(200,100,100,.9));
+padding:20px 0 25px}
+.footer ul{
+list-style-type:none;
+padding-left:0}
+.footer li{
+color:#000;
+font-weight:600}
+@media (max-width:500px){
+img.col-md-6{
+padding:50px;
+width:100%}
 }

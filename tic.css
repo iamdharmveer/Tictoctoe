@@ -154,6 +154,43 @@ hr.right-diagonal {
 		height: 350px;
 	}
 }
+.footer{
+border-top:1px solid #dbdbdb
+;background:black;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgba(200,100,100,.9), rgba(100,200,100,.5), rgba(100,100,200,.9), rgba(100,200,100,.5),rgba(200,100,100,.9));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, rgba(200,100,100,.9), rgba(100,200,100,.5), rgba(100,100,200,.9), rgba(100,200,100,.5),rgba(200,100,100,.9));
+padding:20px 0 25px}
+.footer ul{
+list-style-type:none;
+padding-left:0}
+.footer li{
+color:#000;
+font-weight:600}
+@media (max-width:500px){
+img.col-md-6{
+padding:50px;
+width:100%}
+}
+<<<<<<< HEAD
+
+
+
+.ex2 i {
+  margin: 0 20px;
+  color: rgba(60,50,70,.9);
+  cursor: pointer;
+}
+.ex2 i:hover {
+  color: coral;
+  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  font-size: 1.5em;
+}
+
 .emblem {
   position: absolute;
   left: 3%;
@@ -165,7 +202,7 @@ hr.right-diagonal {
   height: 165px;
   border-radius: 30%;
   font-weight: bold;
-  color: rgba(0,0,9,.9);
+  color: rgba(43,77,57,.9);
   animation: spinZ 20s linear infinite;
   text-align: center;
     font-family:monospace;
@@ -189,22 +226,6 @@ hr.right-diagonal {
     transform: rotateZ(0deg);
   }
 }
-.footer{
-border-top:1px solid #dbdbdb
-;background:black;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, rgba(200,100,100,.9), rgba(100,200,100,.5), rgba(100,100,200,.9), rgba(100,200,100,.5),rgba(200,100,100,.9));
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, rgba(200,100,100,.9), rgba(100,200,100,.5), rgba(100,100,200,.9), rgba(100,200,100,.5),rgba(200,100,100,.9));
-padding:20px 0 25px}
-.footer ul{
-list-style-type:none;
-padding-left:0}
-.footer li{
-color:#000;
-font-weight:600}
-@media (max-width:500px){
-img.col-md-6{
-padding:50px;
-width:100%}
-}
+
+=======
+>>>>>>> origin/gh-pages
